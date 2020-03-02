@@ -12,7 +12,7 @@ for i in range(9, 1, -1):
         num = num // i
 
 if (num != 1):
-    print (-1)
+    print(-1)
     exit()
 
 x = 10
@@ -25,4 +25,4 @@ while True:
         break
     else:
         x += 1
-print (x)
+print(x)

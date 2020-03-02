@@ -10,4 +10,4 @@ for i in range(num):
 sum_first_diagonal = sum(matrix[i][i] for i in range(num))
 sum_second_diagonal = sum(matrix[i][num - i - 1] for i in range(num))
 result = abs(sum_first_diagonal - sum_second_diagonal)
-print (result)
+print(result)

@@ -12,4 +12,4 @@ finalstr = ''
 for i in range(words):
     revword = splitstr[i][::-1] + ' '
     finalstr += revword
-print (finalstr)
+print(finalstr)
