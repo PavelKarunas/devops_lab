@@ -11,6 +11,8 @@ Requirements:
 Python version 3.6 or above
 Installed psutil with pip
 
+
+
 Installation:
 Clone the repo and navigate to this folder.
 
@@ -19,9 +21,13 @@ Clone the repo and navigate to this folder.
   $ snapshot
 
 
+
+
 Uninstallation:
 
   $ pip uninstall zoo-example
+
+
 
 Examples of use:
 
