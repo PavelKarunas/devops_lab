@@ -6,8 +6,8 @@ import time
 import json
 
 parser = argparse.ArgumentParser(description='Simple server system monitoring script.')
-parser.add_argument('interval', type=int, nargs='?', const=1, default=300, help='Time interval for taking data samples.')
-parser.add_argument('data_type', type=str, nargs='?', const=1, default='txt', help='Output file format extension txt or json.')
+parser.add_argument('interval', type=int, nargs='?', const=1, default=300, help='Time interval.')
+parser.add_argument('data_type', type=str, nargs='?', const=1, default='txt', help='Output file format txt or json.')
 args = parser.parse_args()
 
 
