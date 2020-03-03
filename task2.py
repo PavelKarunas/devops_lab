@@ -2,9 +2,7 @@
 
 string = str(input("Input str: "))
 
-length = len(string)
-
-revstring = string[length::-1]
+revstring = string[::-1]
 
 if string.lower() == revstring.lower():
     print("yes")
