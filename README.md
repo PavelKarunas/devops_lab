@@ -14,20 +14,20 @@ Installed psutil with pip
 Installation:
 Clone the repo and navigate to this folder.
 
-$ pip install .
+  $ pip install .
 
-$ snapshot
+  $ snapshot
 
 
 Uninstallation:
 
-$ pip uninstall zoo-example
+  $ pip uninstall zoo-example
 
 Examples of use:
 
-$ snapshot
+  $ snapshot
 
-$ snapshot 60 json
+  $ snapshot 60 json
 
-$ snapshot 20 txt
+  $ snapshot 20 txt
 
