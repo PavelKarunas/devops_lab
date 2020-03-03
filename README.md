@@ -22,7 +22,7 @@ Clone the repo and navigate to this folder.
 
 **Uninstallation:**
 
-  $ pip uninstall zoo-example
+  $ pip uninstall snapshot
 
 **Examples of use:**
 
