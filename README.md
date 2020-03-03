@@ -15,12 +15,17 @@ Installation:
 Clone the repo and navigate to this folder.
 
 $ pip install .
+
 $ snapshot
+
 
 Uninstallation:
 $ pip uninstall zoo-example
 
 Examples of use:
 $ snapshot
+
 $ snapshot 60 json
+
 $ snapshot 20 txt
+
