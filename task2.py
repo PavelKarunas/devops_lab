@@ -1,10 +1,8 @@
 #!/usr/bin/python3
 
-string = str(input("Input str: "))
+string = str(input(""))
 
-length = len(string)
-
-revstring = string[length::-1]
+revstring = string[::-1]
 
 if string.lower() == revstring.lower():
     print("yes")
