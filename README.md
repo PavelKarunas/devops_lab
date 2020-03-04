@@ -2,7 +2,7 @@
 
 # Pavel_Karunas_Day4_Github Api Requests
 
-Description:
+**Description:**
 1. This application takes following parameters at start:
 	- --owner <username> (required)
 	- --repo <reponame>
@@ -24,11 +24,13 @@ Description:
 11. If repo parameter not specified apllication show information (user ID, number of public and private repos) about Github user specified in mandatory parameter.
 12. After application is launched you will be promted for username and password, this information will be used for authentication at Github.
 
-Requirements:
+**Requirements:**
+
 Python version 3.6 or above
+
 Installed Requests package
 
-Examples of use:
+**Examples of use:**
 
 $ pr-stats --help
 
