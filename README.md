@@ -30,14 +30,14 @@ Installed Requests package
 
 Examples of use:
 
-$ git_v1.py --help
+$ pr-stats --help
 
-$ git_v1.py --version
+$ pr-stats --version
  
-$ git_v1.py --owner PavelKarunas --repo DevOps_Lab_LDAP --created --updated --pushed --issues --subs
+$ pr-stats --owner PavelKarunas --repo DevOps_Lab_LDAP --created --updated --pushed --issues --subs
 
-$ git_v1.py --owner PavelKarunas --repo DevOps_Lab_LDAP --subs --issues
+$ pr-stats --owner PavelKarunas --repo DevOps_Lab_LDAP --subs --issues
 
-$ git_v1.py --owner PavelKarunas
+$ pr-stats --owner PavelKarunas
 
 
