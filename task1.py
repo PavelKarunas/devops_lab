@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-N = int(input("Input int: "))
+N = int(input(""))
 
 i = 0
 while i < N:
