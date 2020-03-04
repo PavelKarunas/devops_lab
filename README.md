@@ -25,7 +25,9 @@
 12. After application is launched you will be promted for username and password, this information will be used for authentication at Github.
 
 **Requirements:**
+
 Python version 3.6 or above
+
 Installed Requests package
 
 **Examples of use:**
