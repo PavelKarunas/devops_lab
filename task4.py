@@ -1,17 +1,17 @@
 #!/usr/bin/python3
 
-num = int(input("Input int: "))
+num = int(input(""))
 
 num2 = num
 digits = ()
 
 for i in range(9, 1, -1):
 
-    while (num % i == 0):
+    while num % i == 0:
 
-        num = num // i
+        num //= i
 
-if (num != 1):
+if num != 1:
     print(-1)
     exit()
 
