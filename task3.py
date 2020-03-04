@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-string = str(input("Input str: "))
+string = str(input(""))
 
 splitstr = string.split()
 
