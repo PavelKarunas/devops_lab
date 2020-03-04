@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 
-num = int(input("Input int: "))
+num = int(input(""))
 
 matrix = []
-print("Enter the %s x %s matrix: " % (num, num))
 for i in range(num):
     matrix.append(list(map(int, input().rstrip().split())))
 
