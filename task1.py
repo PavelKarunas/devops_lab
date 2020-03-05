@@ -29,35 +29,20 @@ def recursive(path):
 
 if args.parent:
     new = parent(args.path)
-    if args.extension:
-        new = [f for f in new if f.endswith("." + args.extension[0])]
-        if args.extension and not args.byname and not args.bydate:
-            print("\n".join(new))
-            exit()
-    if args.bydate:
-        new.sort(key=os.path.getmtime)
-        print("\n".join(new))
-        exit()
-    if args.byname:
-        print("\n".join(sorted(new)))
-        exit()
-    print("\n".join(new))
-    exit()
-
-
-if args.recursive:
+elif args.recursive:
     new = recursive(args.path)
-    if args.extension:
-        new = [f for f in new if f.endswith("." + args.extension[0])]
-        if args.extension and not args.byname and not args.bydate:
-            print("\n".join(new))
-            exit()
-    if args.bydate:
-        new.sort(key=os.path.getmtime)
+    print (args.path)
+if args.extension:
+    new = [f for f in new if f.endswith("." + args.extension[0])]
+    if args.extension and not args.byname and not args.bydate:
         print("\n".join(new))
         exit()
-    if args.byname:
-        print("\n".join(sorted(new)))
-        exit()
+if args.bydate:
+    new.sort(key=os.path.getmtime)
     print("\n".join(new))
     exit()
+if args.byname:
+    print("\n".join(sorted(new)))
+    exit()
+print("\n".join(new))
+exit()
