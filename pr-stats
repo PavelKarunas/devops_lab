@@ -31,19 +31,19 @@ if args.repo:
     print ("Repository name: ", args.repo[0], ", Owner: ", args.owner[0])
 
     if args.created:
-        print ("Repository created: " + data['created_at'])
+        print ("Repository created: ", data['created_at'])
 
     if args.updated:
-        print ("Repository updated: " + data['updated_at'])
+        print ("Repository updated: ", data['updated_at'])
 
     if args.pushed:
-        print ("Repository pushed: " + data['pushed_at'])
+        print ("Repository pushed: ", data['pushed_at'])
 
     if args.issues:
-        print ("Number of open issues: " + str(data['open_issues_count']))
+        print ("Number of open issues: ", data['open_issues_count'])
 
     if args.subs:
-        print ("Number of subscribers: " + str(data['subscribers_count']))
+        print ("Number of subscribers: ", data['subscribers_count'])
 else:
     try:
         req1 = requests.get('https://api.github.com/users/' \
