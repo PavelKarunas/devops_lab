@@ -15,7 +15,7 @@ parser.add_argument("--subs", action="store_true", help="Number of subscribers")
 parser.add_argument('--version', action='version', version='%(prog)s 1.0')
 args = parser.parse_args()
 
-user = str(input("Please enter Github username for authentication:"))
+user = input("Please enter Github username for authentication:")
 passw = getpass.getpass(prompt='Password: ', stream=None)
 
 if args.repo:
