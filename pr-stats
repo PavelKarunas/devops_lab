@@ -28,7 +28,7 @@ if args.repo:
         print("Bad link provided")
         exit()
 
-    print ("Repository name: " + args.repo[0] + ", Owner: " + args.owner[0])
+    print ("Repository name: ", args.repo[0], ", Owner: ", args.owner[0])
 
     if args.created:
         print ("Repository created: " + data['created_at'])
