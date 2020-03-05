@@ -54,7 +54,7 @@ else:
         print("Bad link provided")
         exit()
 
-    print ("Git user name: " + args.owner[0])
-    print ("User ID: " + str(data1['id']))
-    print ("User public repositories: " + str(data1['public_repos']))
-    print ("User private repositories: " + str(data1['total_private_repos']))
+    print ("Git user name: ", args.owner[0])
+    print ("User ID: ", data1['id'])
+    print ("User public repositories: ", data1['public_repos'])
+    print ("User private repositories: ", data1['total_private_repos'])
