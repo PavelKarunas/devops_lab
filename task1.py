@@ -31,7 +31,7 @@ if args.parent:
     new = parent(args.path)
 elif args.recursive:
     new = recursive(args.path)
-    print (args.path)
+    print(args.path)
 if args.extension:
     new = [f for f in new if f.endswith("." + args.extension[0])]
     if args.extension and not args.byname and not args.bydate:
